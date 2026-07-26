@@ -1,0 +1,10 @@
+general:
+  buildTool: "maven"
+  buildDescriptor: "pom.xml"
+stages:
+  Build:
+    mavenExecuteStaticCodeChecks: false
+
+steps:
+  mavenExecute:
+    goals: "clean package"
