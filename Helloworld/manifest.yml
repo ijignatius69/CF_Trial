@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: Helloworld
+  - name: helloworld
     path: target/Helloworld-0.0.1-SNAPSHOT.jar
     memory: 2G
     buildpacks:
