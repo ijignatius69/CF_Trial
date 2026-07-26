@@ -1,6 +1,6 @@
 general:
   buildTool: "maven"
-  buildDescriptor: "pom.xml"
+  buildDescriptor: "Helloworld/pom.xml"
 stages:
   Build:
     mavenExecuteStaticCodeChecks: false
@@ -8,3 +8,5 @@ stages:
 steps:
   mavenExecute:
     goals: "clean package"
+  cloudFoundryDeploy:
+    manifestPath: "Helloworld/manifest.yml"
