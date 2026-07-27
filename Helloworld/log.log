@@ -1,0 +1,264 @@
+Retrieving logs for app helloworld in org 840b63adtrial / space dev as ijignatius69@gmail.com...
+
+   2026-07-27T04:32:44.05+0000 [API/5] OUT Added process: "web"
+   2026-07-27T04:32:44.06+0000 [API/5] OUT Created app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T04:32:44.08+0000 [API/5] OUT Applied manifest to app with guid 4db10995-81a8-4476-a477-f250abcc349d (---
+   2026-07-27T04:32:44.08+0000 [API/5] OUT applications:
+   2026-07-27T04:32:44.08+0000 [API/5] OUT - name: helloworld
+   2026-07-27T04:32:44.08+0000 [API/5] OUT   default-route: true
+   2026-07-27T04:32:44.08+0000 [API/5] OUT )
+   2026-07-27T04:32:44.79+0000 [API/1] OUT Updated app with guid 4db10995-81a8-4476-a477-f250abcc349d ({})
+   2026-07-27T04:32:44.90+0000 [API/1] OUT Updated app with guid 4db10995-81a8-4476-a477-f250abcc349d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"})
+   2026-07-27T04:32:50.73+0000 [API/9] OUT Uploading app package for app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T04:32:56.93+0000 [API/6] OUT Creating build for app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T04:32:58.19+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_18...
+   2026-07-27T04:32:58.19+0000 [STG/0] OUT Downloading staticfile_buildpack...
+   2026-07-27T04:32:58.19+0000 [STG/0] OUT Downloading java_buildpack...
+   2026-07-27T04:32:58.19+0000 [STG/0] OUT Downloading nodejs_buildpack...
+   2026-07-27T04:32:58.21+0000 [STG/0] OUT Downloaded nodejs_buildpack
+   2026-07-27T04:32:58.21+0000 [STG/0] OUT Downloading go_buildpack...
+   2026-07-27T04:32:58.21+0000 [STG/0] OUT Downloading python_buildpack...
+   2026-07-27T04:32:58.22+0000 [STG/0] OUT Downloaded staticfile_buildpack
+   2026-07-27T04:32:58.22+0000 [STG/0] OUT Downloading php_buildpack...
+   2026-07-27T04:32:58.24+0000 [STG/0] OUT Downloaded python_buildpack
+   2026-07-27T04:32:58.24+0000 [STG/0] OUT Downloading nginx_buildpack...
+   2026-07-27T04:33:00.68+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_18 (28.9M)
+   2026-07-27T04:33:00.68+0000 [STG/0] OUT Downloading binary_buildpack...
+   2026-07-27T04:33:01.05+0000 [STG/0] OUT Downloaded nginx_buildpack (61.8M)
+   2026-07-27T04:33:01.05+0000 [STG/0] OUT Downloading java_buildpack_v5_preview...
+   2026-07-27T04:33:01.41+0000 [STG/0] OUT Downloaded binary_buildpack (7.7M)
+   2026-07-27T04:33:01.41+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta...
+   2026-07-27T04:33:08.64+0000 [STG/0] OUT Downloaded go_buildpack (296.3M)
+   2026-07-27T04:33:08.64+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_66...
+   2026-07-27T04:33:14.45+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta (383.3M)
+   2026-07-27T04:33:14.45+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_65...
+   2026-07-27T04:33:21.64+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_66 (383.3M)
+   2026-07-27T04:33:21.64+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_63...
+   2026-07-27T04:33:23.83+0000 [STG/0] OUT Downloaded php_buildpack (727.6M)
+   2026-07-27T04:33:23.83+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_16...
+   2026-07-27T04:33:27.84+0000 [STG/0] OUT Downloaded java_buildpack (902M)
+   2026-07-27T04:33:27.84+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_17...
+   2026-07-27T04:33:28.84+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_65 (383.3M)
+   2026-07-27T04:33:28.84+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack...
+   2026-07-27T04:33:29.24+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_16 (31.4M)
+   2026-07-27T04:33:31.95+0000 [STG/0] OUT Downloaded java_buildpack_v5_preview (923.8M)
+   2026-07-27T04:33:32.12+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_17 (28.9M)
+   2026-07-27T04:33:32.30+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack (28.9M)
+   2026-07-27T04:33:35.56+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_63 (383M)
+   2026-07-27T04:33:35.56+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance 606bbbff-6dd6-46e6-b331-dcb0319a7431
+   2026-07-27T04:33:36.39+0000 [STG/0] OUT Security group rules were updated
+   2026-07-27T04:33:36.49+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance 606bbbff-6dd6-46e6-b331-dcb0319a7431
+   2026-07-27T04:33:37.86+0000 [STG/0] OUT Downloading app package...
+   2026-07-27T04:33:41.31+0000 [STG/0] OUT Downloaded app package (53.2M)
+   2026-07-27T04:33:42.03+0000 [STG/0] ERR stat /tmp/buildpacks/afc1bb88f8ac3d27/bin/detect: no such file or directory
+   2026-07-27T04:33:42.03+0000 [STG/0] ERR stat /tmp/buildpacks/ed32e6483882dc17/bin/detect: no such file or directory
+   2026-07-27T04:33:42.03+0000 [STG/0] ERR stat /tmp/buildpacks/44a36a19d87bde35/bin/detect: no such file or directory
+   2026-07-27T04:33:42.03+0000 [STG/0] ERR stat /tmp/buildpacks/ef9e093a5f13b238/bin/detect: no such file or directory
+   2026-07-27T04:33:42.03+0000 [STG/0] ERR None of the buildpacks detected a compatible application
+   2026-07-27T04:33:42.04+0000 [STG/0] OUT Exit status 222
+   2026-07-27T04:33:43.12+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 606bbbff-6dd6-46e6-b331-dcb0319a7431
+   2026-07-27T04:33:43.12+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 606bbbff-6dd6-46e6-b331-dcb0319a7431
+   2026-07-27T04:33:43.17+0000 [API/10] OUT Staging failed for build 606bbbff-6dd6-46e6-b331-dcb0319a7431
+   2026-07-27T04:33:43.19+0000 [API/10] ERR Failed to stage build: staging failed
+   2026-07-27T04:33:45.51+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 606bbbff-6dd6-46e6-b331-dcb0319a7431
+   2026-07-27T05:02:18.50+0000 [API/11] OUT Applied manifest to app with guid 4db10995-81a8-4476-a477-f250abcc349d (---
+   2026-07-27T05:02:18.50+0000 [API/11] OUT applications:
+   2026-07-27T05:02:18.50+0000 [API/11] OUT - name: helloworld
+   2026-07-27T05:02:18.50+0000 [API/11] OUT   path: target/Helloworld-0.0.1-SNAPSHOT.jar
+   2026-07-27T05:02:18.50+0000 [API/11] OUT   memory: 2G
+   2026-07-27T05:02:18.50+0000 [API/11] OUT   default-route: true
+   2026-07-27T05:02:18.50+0000 [API/11] OUT )
+   2026-07-27T05:02:18.61+0000 [API/3] OUT Scaling process: "web"
+   2026-07-27T05:02:18.64+0000 [API/3] OUT Updated app with guid 4db10995-81a8-4476-a477-f250abcc349d ({})
+   2026-07-27T05:02:18.66+0000 [API/3] OUT Updated app with guid 4db10995-81a8-4476-a477-f250abcc349d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"})
+   2026-07-27T05:02:23.30+0000 [API/4] OUT Uploading app package for app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T05:02:29.46+0000 [API/10] OUT Creating build for app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T05:02:30.81+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_18...
+   2026-07-27T05:02:30.82+0000 [STG/0] OUT Downloading staticfile_buildpack...
+   2026-07-27T05:02:30.82+0000 [STG/0] OUT Downloading java_buildpack...
+   2026-07-27T05:02:30.82+0000 [STG/0] OUT Downloading nodejs_buildpack...
+   2026-07-27T05:02:30.83+0000 [STG/0] OUT Downloading go_buildpack...
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloaded staticfile_buildpack
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloading python_buildpack...
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloaded java_buildpack
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloading php_buildpack...
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_18
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloading nginx_buildpack...
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloaded nodejs_buildpack
+   2026-07-27T05:02:30.84+0000 [STG/0] OUT Downloading binary_buildpack...
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloaded go_buildpack
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloading java_buildpack_v5_preview...
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloaded python_buildpack
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta...
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloaded nginx_buildpack
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_66...
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloaded php_buildpack
+   2026-07-27T05:02:30.86+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_65...
+   2026-07-27T05:02:30.87+0000 [STG/0] OUT Downloaded binary_buildpack
+   2026-07-27T05:02:30.87+0000 [STG/0] OUT Downloading sap_java_buildpack_jakarta_2_63...
+   2026-07-27T05:02:30.87+0000 [STG/0] OUT Downloaded java_buildpack_v5_preview
+   2026-07-27T05:02:30.87+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_16...
+   2026-07-27T05:02:30.88+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta
+   2026-07-27T05:02:30.88+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack_1_17...
+   2026-07-27T05:02:30.88+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_66
+   2026-07-27T05:02:30.88+0000 [STG/0] OUT Downloading zero_trust_sidecar_buildpack...
+   2026-07-27T05:02:30.89+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_65
+   2026-07-27T05:02:30.89+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_16
+   2026-07-27T05:02:30.90+0000 [STG/0] OUT Downloaded sap_java_buildpack_jakarta_2_63
+   2026-07-27T05:02:30.90+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack_1_17
+   2026-07-27T05:02:30.91+0000 [STG/0] OUT Downloaded zero_trust_sidecar_buildpack
+   2026-07-27T05:02:30.91+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance 56e7bf8c-9309-4531-a91f-8d8cde190928
+   2026-07-27T05:02:31.71+0000 [STG/0] OUT Security group rules were updated
+   2026-07-27T05:02:31.91+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance 56e7bf8c-9309-4531-a91f-8d8cde190928
+   2026-07-27T05:02:33.47+0000 [STG/0] OUT Downloading app package...
+   2026-07-27T05:02:34.82+0000 [STG/0] OUT Downloaded app package (17.2M)
+   2026-07-27T05:02:36.64+0000 [STG/0] OUT [1m[31m----->[0m[22m [1m[34mJava Buildpack[0m[22m [34mv4.77.0[0m [34m(offline)[0m | https://github.com/cloudfoundry/java-buildpack.git#1194e2c3
+   2026-07-27T05:02:36.66+0000 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mJvmkill Agent[0m[22m [34m1.17.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/jvmkill/jammy/x86_64/jvmkill-1.17.0-RELEASE.so [3m[32m(found in cache)[0m[23m
+   2026-07-27T05:02:36.67+0000 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen Jdk JRE[0m[22m [34m1.8.0_452[0m from https://java-buildpack.cloudfoundry.org/openjdk/jammy/x86_64/bellsoft-jre8u452%2B11-linux-amd64.tar.gz [3m[32m(found in cache)[0m[23m
+   2026-07-27T05:02:37.79+0000 [STG/0] OUT Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre [3m[32m(1.1s)[0m[23m
+   2026-07-27T05:02:37.79+0000 [STG/0] OUT JVM DNS caching disabled in lieu of BOSH DNS caching
+   2026-07-27T05:02:37.79+0000 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen JDK Like Memory Calculator[0m[22m [34m3.13.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/memory-calculator/jammy/x86_64/memory-calculator-3.13.0-RELEASE.tar.gz [3m[32m(found in cache)[0m[23m
+   2026-07-27T05:02:39.22+0000 [STG/0] OUT Loaded Classes: 12242, Threads: 250
+   2026-07-27T05:02:39.23+0000 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mClient Certificate Mapper[0m[22m [34m2.0.1[0m from https://java-buildpack.cloudfoundry.org/client-certificate-mapper/client-certificate-mapper-2.0.1.jar [3m[32m(found in cache)[0m[23m
+   2026-07-27T05:02:39.23+0000 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mContainer Security Provider[0m[22m [34m1.20.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/container-security-provider/container-security-provider-1.20.0-RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2026-07-27T05:02:39.24+0000 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mJava Cf Env[0m[22m [34m3.4.0[0m from https://java-buildpack.cloudfoundry.org/java-cfenv/java-cfenv-3.4.0.jar [3m[32m(found in cache)[0m[23m
+   2026-07-27T05:02:49.54+0000 [STG/0] OUT Exit status 0
+   2026-07-27T05:02:49.54+0000 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2026-07-27T05:02:49.54+0000 [STG/0] OUT Uploading droplet...
+   2026-07-27T05:02:49.54+0000 [STG/0] OUT Uploading build artifacts cache...
+   2026-07-27T05:02:49.60+0000 [STG/0] OUT Uploaded build artifacts cache (128B)
+   2026-07-27T05:02:50.58+0000 [API/7] OUT Creating droplet for app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T05:02:53.66+0000 [STG/0] OUT Uploaded droplet (61.3M)
+   2026-07-27T05:02:53.70+0000 [STG/0] OUT Uploading complete
+   2026-07-27T05:02:55.34+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 56e7bf8c-9309-4531-a91f-8d8cde190928
+   2026-07-27T05:02:55.34+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 56e7bf8c-9309-4531-a91f-8d8cde190928
+   2026-07-27T05:02:55.42+0000 [API/14] OUT Staging complete for build 56e7bf8c-9309-4531-a91f-8d8cde190928
+   2026-07-27T05:02:57.66+0000 [STG/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 56e7bf8c-9309-4531-a91f-8d8cde190928
+   2026-07-27T05:02:58.12+0000 [API/13] OUT Updated app with guid 4db10995-81a8-4476-a477-f250abcc349d ({:droplet_guid=>"efb4f401-1059-43c2-b401-a2c00bd326fd"})
+   2026-07-27T05:02:58.14+0000 [API/13] OUT Added process: "task"
+   2026-07-27T05:02:58.21+0000 [API/6] OUT Creating revision for app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T05:02:58.49+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance 4bffb92a-2ea4-408e-5705-ec55
+   2026-07-27T05:02:58.52+0000 [API/6] OUT Restarted app with guid 4db10995-81a8-4476-a477-f250abcc349d
+   2026-07-27T05:02:59.31+0000 [CELL/0] OUT Security group rules were updated
+   2026-07-27T05:02:59.44+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance 4bffb92a-2ea4-408e-5705-ec55
+   2026-07-27T05:03:00.07+0000 [CELL/0] OUT Downloading droplet...
+   2026-07-27T05:03:03.24+0000 [CELL/0] OUT Downloaded droplet (61.3M)
+   2026-07-27T05:03:03.24+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-07-27T05:03:03.38+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-07-27T05:03:03.39+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-07-27T05:03:03.40+0000 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx1497796K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=87355K
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR Error: A JNI error has occurred, please check your installation and try again
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springframework/boot/loader/launch/JarLauncher has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+   2026-07-27T05:03:03.57+0000 [APP/PROC/WEB/0] ERR at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+   2026-07-27T05:03:03.59+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-07-27T05:03:10.88+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 4bffb92a-2ea4-408e-5705-ec55
+   2026-07-27T05:03:10.88+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 4bffb92a-2ea4-408e-5705-ec55
+   2026-07-27T05:03:10.88+0000 [API/3] OUT Process has crashed with type: "web"
+   2026-07-27T05:03:10.90+0000 [API/3] OUT App instance exited with guid 4db10995-81a8-4476-a477-f250abcc349d payload: {"instance"=>"4bffb92a-2ea4-408e-5705-ec55", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1785128590853911412, "version"=>"204208f1-4c59-4bcd-bd6d-87b112b7ca72"}
+   2026-07-27T05:03:10.95+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance c3ba5507-44d1-47e3-7d4e-34ca
+   2026-07-27T05:03:11.02+0000 [PROXY/0] OUT Exit status 137
+   2026-07-27T05:03:11.80+0000 [CELL/0] OUT Security group rules were updated
+   2026-07-27T05:03:11.92+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance c3ba5507-44d1-47e3-7d4e-34ca
+   2026-07-27T05:03:12.49+0000 [CELL/0] OUT Downloading droplet...
+   2026-07-27T05:03:13.13+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 4bffb92a-2ea4-408e-5705-ec55
+   2026-07-27T05:03:15.21+0000 [CELL/0] OUT Downloaded droplet (61.3M)
+   2026-07-27T05:03:15.21+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-07-27T05:03:15.33+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-07-27T05:03:15.34+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-07-27T05:03:15.35+0000 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx1497796K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=87355K
+   2026-07-27T05:03:15.45+0000 [APP/PROC/WEB/0] ERR Error: A JNI error has occurred, please check your installation and try again
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springframework/boot/loader/launch/JarLauncher has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+   2026-07-27T05:03:15.46+0000 [APP/PROC/WEB/0] ERR at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+   2026-07-27T05:03:15.48+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-07-27T05:03:22.04+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance c3ba5507-44d1-47e3-7d4e-34ca
+   2026-07-27T05:03:22.04+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance c3ba5507-44d1-47e3-7d4e-34ca
+   2026-07-27T05:03:22.05+0000 [API/2] OUT Process has crashed with type: "web"
+   2026-07-27T05:03:22.07+0000 [API/2] OUT App instance exited with guid 4db10995-81a8-4476-a477-f250abcc349d payload: {"instance"=>"c3ba5507-44d1-47e3-7d4e-34ca", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1785128602013977608, "version"=>"204208f1-4c59-4bcd-bd6d-87b112b7ca72"}
+   2026-07-27T05:03:22.09+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance e174cd81-eb77-485f-7ae2-9afa
+   2026-07-27T05:03:22.18+0000 [PROXY/0] OUT Exit status 137
+   2026-07-27T05:03:22.92+0000 [CELL/0] OUT Security group rules were updated
+   2026-07-27T05:03:23.07+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance e174cd81-eb77-485f-7ae2-9afa
+   2026-07-27T05:03:23.64+0000 [CELL/0] OUT Downloading droplet...
+   2026-07-27T05:03:24.37+0000 [CELL/0] OUT Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance c3ba5507-44d1-47e3-7d4e-34ca
+   2026-07-27T05:03:24.51+0000 [CELL/0] OUT Downloaded droplet
+   2026-07-27T05:03:24.51+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-07-27T05:03:24.68+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-07-27T05:03:24.68+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-07-27T05:03:24.69+0000 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx1497796K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=87355K
+   2026-07-27T05:03:24.79+0000 [APP/PROC/WEB/0] ERR Error: A JNI error has occurred, please check your installation and try again
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springframework/boot/loader/launch/JarLauncher has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+   2026-07-27T05:03:24.80+0000 [APP/PROC/WEB/0] ERR at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+   2026-07-27T05:03:24.82+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-07-27T05:03:30.99+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance e174cd81-eb77-485f-7ae2-9afa
+   2026-07-27T05:03:30.99+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance e174cd81-eb77-485f-7ae2-9afa
+   2026-07-27T05:03:31.02+0000 [API/10] OUT Process has crashed with type: "web"
+   2026-07-27T05:03:31.04+0000 [API/10] OUT App instance exited with guid 4db10995-81a8-4476-a477-f250abcc349d payload: {"instance"=>"e174cd81-eb77-485f-7ae2-9afa", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1785128610990927658, "version"=>"204208f1-4c59-4bcd-bd6d-87b112b7ca72"}
+   2026-07-27T05:03:31.15+0000 [PROXY/0] OUT Exit status 137
+   2026-07-27T05:03:33.26+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance e174cd81-eb77-485f-7ae2-9afa
+   2026-07-27T05:04:23.29+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance fe8e0494-3dd9-4fb7-6a0f-8328
+   2026-07-27T05:04:24.16+0000 [CELL/0] OUT Security group rules were updated
+   2026-07-27T05:04:24.44+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance fe8e0494-3dd9-4fb7-6a0f-8328
+   2026-07-27T05:04:24.78+0000 [CELL/0] OUT Downloading droplet...
+   2026-07-27T05:04:25.33+0000 [CELL/0] OUT Downloaded droplet
+   2026-07-27T05:04:25.33+0000 [CELL/0] OUT Starting health monitoring of container
+   2026-07-27T05:04:25.48+0000 [APP/PROC/WEB/0] OUT Invoking pre-start scripts.
+   2026-07-27T05:04:25.49+0000 [APP/PROC/WEB/0] OUT Invoking start command.
+   2026-07-27T05:04:25.50+0000 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx1497796K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=87355K
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR Error: A JNI error has occurred, please check your installation and try again
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR Exception in thread "main" java.lang.UnsupportedClassVersionError: org/springframework/boot/loader/launch/JarLauncher has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass1(Native Method)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.defineClass(URLClassLoader.java:473)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.security.AccessController.doPrivileged(Native Method)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+   2026-07-27T05:04:25.60+0000 [APP/PROC/WEB/0] ERR at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:621)
+   2026-07-27T05:04:25.62+0000 [APP/PROC/WEB/0] OUT Exit status 1
+   2026-07-27T05:04:31.30+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance fe8e0494-3dd9-4fb7-6a0f-8328
+   2026-07-27T05:04:31.30+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance fe8e0494-3dd9-4fb7-6a0f-8328
+   2026-07-27T05:04:31.33+0000 [API/0] OUT Process has crashed with type: "web"
+   2026-07-27T05:04:31.36+0000 [API/0] OUT App instance exited with guid 4db10995-81a8-4476-a477-f250abcc349d payload: {"instance"=>"fe8e0494-3dd9-4fb7-6a0f-8328", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>4, "crash_timestamp"=>1785128671300528771, "version"=>"204208f1-4c59-4bcd-bd6d-87b112b7ca72"}
+   2026-07-27T05:04:31.47+0000 [PROXY/0] OUT Exit status 137
+   2026-07-27T05:04:33.54+0000 [CELL/0] OUT Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance fe8e0494-3dd9-4fb7-6a0f-8328
